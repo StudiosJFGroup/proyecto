@@ -1,0 +1,186 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #2b2e2f;
+    font-family: Klavika;
+}
+
+header {
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    color: white;
+}
+
+nav {
+    background-color: #141414;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    margin: 42px auto;
+    color: white;
+}
+
+nav > ul {
+    display: flex;
+    list-style: none;
+}
+
+nav > ul > li {
+    margin: 10px;
+}
+
+.espacio {
+    width: 100%;
+    height: 80px;
+}
+
+.espacio-footer {
+    width: 100%;
+    height: 40px;
+}
+
+.message-informacion {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto;
+    color: white;
+    display: none;
+}
+
+.alerta-sinConexion {
+    width: 90%;
+    background-color: red;
+    color: white;
+    position: fixed;
+    margin: 10px 13px;
+    padding: 5px;
+    border-radius: 10px;
+    min-height: 150px;
+    display: none;
+}
+
+.alerta-sinConexion h3 {
+    margin: 10px;
+}
+
+.alerta-sinConexion p {
+    margin: 10px;
+}
+
+.comentario {
+    background-color: white;
+    color: black;
+    margin: 15px;
+    border-radius: 10px;
+    padding: 6px;
+    transition: 1s;
+}
+
+.comentario:hover {
+    background-color: black;
+    color: white;
+}
+
+.comentario:hover .texto {
+    height: fit-content;
+    margin: 20px 15px;
+}
+
+.contenido {
+    display: flex;
+}
+
+.comentario img {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+}
+
+.nickname {
+    width: 400px;
+    height: 20px;
+    overflow: hidden;
+    margin: 5px;
+}
+
+.comentario h5 {
+    width: 100%;
+    text-align: right;
+    margin: 5px 15px;
+}
+
+.texto {
+    height: 20px;
+    overflow: hidden;
+    margin: 10px;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.informacion-comentario {
+    width: 90%;
+    background-color: black;
+    color: white;
+    position: fixed;
+    margin: 10px 13px;
+    padding: 5px;
+    border-radius: 10px;
+    min-height: 150px;
+    display: none;
+    border: 2px solid black;
+}
+
+.informacion-comentario h3 {
+    margin: 10px;
+}
+
+.informacion-comentario p {
+    margin: 10px;
+}
+
+.salir-informacion-comentario {
+    text-align: center;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+    margin: -65px 0px;
+}
+
+.salir-informacion-comentario img {
+    width: 50px;
+    height: 50px;
+}
+
+.boton-agregar-comentario {
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 100px 20px;
+}
+
+.boton-agregar-comentario img {
+    width: 100%;
+    height: 100%;
+}
+
+.button-delete {
+    display: none;
+}
